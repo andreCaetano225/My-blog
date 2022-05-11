@@ -1,0 +1,92 @@
+.headerDivFalse{
+    background-color: #F0E7DB;
+    width: 100%;
+    height: 60px;
+    color: #000;
+   
+
+    .divFlex{
+    display: flex;
+    width: 100%;
+    max-width: 780px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 9px;
+
+    div{
+        display: flex;
+        width: 220px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pName{
+        color: #000;
+        font-weight: 800;
+    }
+
+    .ButtonMoon{
+        background-color: #805AD4;
+        color: #FFF;
+        height: 40px;
+        width: 40px;
+        border: solid 1px #805AD4;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+
+        &:hover{
+            background-color: #6B46C1;
+        }
+    }
+    }
+}
+
+
+.headerDivTrue{
+    background-color: #202023;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+   
+
+    .divFlex{
+    display: flex;
+    width: 100%;
+    max-width: 780px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 9px;
+
+    div{
+        display: flex;
+        width: 220px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pName{
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .ButtonMoon{
+        background-color: #FFD08D;
+        color: #000;
+        height: 40px;
+        width: 40px;
+        border: solid 1px #FFD08D;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+
+        &:hover{
+            background-color: #F6AD55;
+        }
+    }
+    }
+}
