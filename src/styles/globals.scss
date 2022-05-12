@@ -1,14 +1,30 @@
-html,
+
+  html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Sora', sans-serif;
+  height: 100%;
+  width: 100%;
+  color: #000;
+  background: #F0E7DB;
+}
+
+[data-theme='dark'],
+[data-theme='dark'] body {
+  color: #fff;
+  background: #202023;
+}
+[data-theme='light'],
+[data-theme='light'] body {
+  color: #000;
+  background: #F0E7DB;
 }
 
 a, button {
   color: inherit;
   cursor: pointer;
+  text-decoration: none;
 }
 
 * {

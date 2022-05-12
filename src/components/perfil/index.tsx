@@ -2,13 +2,14 @@
 import styles from './perfil.module.scss';
 
 export interface PropsPerfil {
-    theme: boolean;
+    themes: boolean;
 }
+
 
 export const Perfil = (props: PropsPerfil) => {
     return (
         <>
-            <div className={props.theme ? styles.divPerfilTrue : styles.divPerfilFalse}>
+            <div className={props.themes ? styles.divPerfilTrue : styles.divPerfilFalse}>
                 <div className={styles.divItems}>
                     <div className={styles.divFlex}>
                         <div>

@@ -1,23 +1,36 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useCallback, useMemo, useState } from "react"
+import { useTheme } from "next-themes";
+import { useCallback, useEffect, useMemo, useState } from "react"
 
 export interface HooksExit{
-    theme: boolean;
+    themes: boolean;
     clickTheme: () => void;
 }
 
 export const useHooksApp = (): HooksExit => {
 
-    const [theme, setTheme] = useState(false);
+    const { theme, setTheme } = useTheme()
+    const [themes, setThemes] = useState(false);
 
+
+    useEffect(() => {
+        if(theme == 'dark'){
+            setThemes(true);
+        }else{
+            setThemes(false);
+
+        }
+    }, [themes, theme])
 
     const clickTheme = useCallback(() => {
-        if(theme == false){
-            setTheme(true);
+        if(themes == false){
+            setThemes(true);
+            setTheme('dark');
         }else{
-            setTheme(false);
+            setThemes(false);
+            setTheme('light');
         }
-    }, [theme])
+    }, [themes, theme])
 
-    return{clickTheme,theme}
+    return{clickTheme,themes}
 }
