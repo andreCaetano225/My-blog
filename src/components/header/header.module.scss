@@ -23,6 +23,26 @@
     .pName{
         color: #000;
         font-weight: 800;
+        cursor: pointer;
+    }
+
+    .pProjeto{
+        color: #000;
+        margin-top: 7px;
+        cursor: pointer;
+        
+        &:hover::after{
+            transition: width 0.3s;
+            width: 100%;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 3px;
+            background: #2e9894;
+            transition: width 0.3s;
+        }
     }
 
     .ButtonMoon{
@@ -70,6 +90,27 @@
     .pName{
         color: #fff;
         font-weight: 800;
+        cursor: pointer;
+
+    }
+
+    .pProjeto{
+        color: #fff;
+        cursor: pointer;
+        margin-top: 7px;
+
+        &:hover::after{
+            transition: width 0.3s;
+            width: 100%;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 3px;
+            background: #79e9dd;
+            transition: width 0.3s;
+        }
     }
 
     .ButtonMoon{

@@ -26,6 +26,33 @@
             }
         }
     }
+    .linkLinkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            background-color: #2e9894;
+            height: 40px;
+            color: #fff;
+            border-radius: 10px;
+            transition: 0.4s;
+            
+            span{
+                margin-left: 5px;
+                margin-top: 7px;
+            }
+
+            &:hover{
+                background-color: #337878;
+            }
+        }
+    }
 }
 
 .divPerfilTrue{
@@ -53,6 +80,34 @@
                 margin-top: 100px;
                 border-radius: 50%;
                 border: solid 2px #FFF;
+            }
+        }
+    }
+
+    .linkLinkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            background-color: #79e9dd;
+            height: 40px;
+            color: #000;
+            border-radius: 10px;
+            transition: 0.4s;
+            
+            span{
+                margin-left: 5px;
+                margin-top: 7px;
+            }
+
+            &:hover{
+                background-color: #52d0c5;
             }
         }
     }
