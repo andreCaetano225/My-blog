@@ -112,3 +112,136 @@
         }
     }
 }
+
+
+@media (max-width: 480px) {
+.divPerfilFalse{
+    width: 100%;
+    color: #000;
+    height: 582px;
+
+    .divItems{
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+
+        .pText{
+            width: 354px;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+        .divFlex{
+            display: flex; 
+            flex-direction: column;
+            margin-left: -67px;
+            margin-top: 30px;
+
+            h2{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+            img{
+                width: 170px;
+                margin-top: 30px;
+                border-radius: 50%;
+                border: solid 2px #FFF;
+            }
+        }
+    }
+    .linkLinkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            background-color: #2e9894;
+            height: 40px;
+            color: #fff;
+            border-radius: 10px;
+            transition: 0.4s;
+            
+            span{
+                margin-left: 5px;
+                margin-top: 7px;
+            }
+
+            &:hover{
+                background-color: #337878;
+            }
+        }
+    }
+}
+
+.divPerfilTrue{
+    width: 100%;
+    color: #fff;
+    height: 582px;
+
+    .divItems{
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+
+        .pText{
+            width: 354px;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+        .divFlex{
+            display: flex; 
+            flex-direction: column;
+            margin-left: -67px;
+            margin-top: 30px;
+
+            h2{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+            img{
+                width: 170px;
+                margin-top: 30px;
+                border-radius: 50%;
+                border: solid 2px #FFF;
+            }
+        }
+    }
+    .linkLinkedin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            background-color: #79e9dd;
+            height: 40px;
+            color: #000;
+            border-radius: 10px;
+            transition: 0.4s;
+            
+            span{
+                margin-left: 5px;
+                margin-top: 7px;
+            }
+
+            &:hover{
+                background-color: #52d0c5;
+            }
+        }
+    }
+}
+}
