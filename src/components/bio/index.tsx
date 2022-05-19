@@ -37,7 +37,7 @@ export const Bio = (props: BioProps) => {
                         <Acad h3={'UNIJUAZEIRO'} p1={'Bacharelado em sistemas de irformação'} link={'https://unijuazeiro.edu.br/'} />
                     </div>
                     <div className={styles.linkLinkedin}>
-                        <a href="./Cv.pdf" download rel="noreferrer">
+                        <a href="./Cv-AndreSousa.pdf" download rel="noreferrer">
                             <p>
                                 Download CV
                             </p>
