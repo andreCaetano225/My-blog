@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider disableTransitionOnChange>
       <Head>
-        <title>André Sousa - Portfolio</title>
+        <title>André Sousa - Portfólio</title>
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>
