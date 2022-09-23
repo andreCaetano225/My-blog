@@ -28,8 +28,15 @@ export const Bio = (props: BioProps) => {
                         <h2>Carreira</h2>
                         <br />
                         <h3>Front-end Developer</h3>
+                        <a href="https://musicpro.live/" target="_blank" className={styles.link} rel="noreferrer">MusicPRO · Tempo integral</a>
+                        <p className={styles.timeCarr}>Jun de 2022 - presente · Brasil</p>
+                        <p className={styles.pTextCarr}>Desenvolvimentos de sites com Reactjs | Nextjs | Tailwind CSS
+                            Desenvolvimentos de aplicativos mobile com React Native.</p>
+                    </div>
+                    <div className={styles.divWidth2}>
+                        <h3>Front-end Developer</h3>
                         <a href="https://www.shareprime.com.br/" target="_blank" className={styles.link} rel="noreferrer">Shareprime · Tempo integral</a>
-                        <p className={styles.timeCarr}>Ago de 2021 - presente · 10 meses Rio Grande do Sul, Brasil</p>
+                        <p className={styles.timeCarr}>Ago de 2021 - Jun de 2022 · Brasil</p>
                         <p className={styles.pTextCarr}>Desenvolver novas soluções, documentá-las e integrá-las à intranets, desenvolver intranets para empresas à partir do Reactjs e SPFX, dar manutenção e melhorias à soluções já criadas e Desenvolver novos sites com Nextjs.</p>
                     </div>
                     <div style={{ marginTop: '120px' }}>
